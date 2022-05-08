@@ -1,0 +1,13 @@
+CRITICAL - 2022-05-05 00:04:39 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\bancoRest\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\bancoRest\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-05-05 01:17:29 --> Class "App\Controllers\API\ClienteModel" not found
+#0 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(809): App\Controllers\API\Clientes->__construct()
+#1 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\bancoRest\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\bancoRest\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\bancoRest\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
